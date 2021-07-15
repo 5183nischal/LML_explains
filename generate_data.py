@@ -23,7 +23,6 @@ import synthetic_datasets
 d = 5
 r = 0.5
 
-start = synthetic_datasets.CustomDataset
 dataset = synthetic_datasets.GaussianNonlinearAdditiveBinary( 
     mu = np.zeros(d),
     sigma = np.identity(d),
